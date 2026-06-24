@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="47521c87-96f3-4607-a1e5-301e59e81a62" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Damas_AI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Board.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CellCode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameManager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Men.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RulesGame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000006749107044" />
+      <entry key="MS500" value="1.101422462472588" />
+      <entry key="S2" value="1.9498439030266002" />
+      <entry key="S5" value="2.5791724471828212" />
+      <entry key="S10" value="3.2904944592237246" />
+      <entry key="S30" value="5.7865474920104605" />
+      <entry key="S60" value="7.896201565912259" />
+      <entry key="M2" value="9.874151812379514" />
+      <entry key="M5" value="13.672303150182836" />
+      <entry key="M10" value="20.60004427500169" />
+      <entry key="M15" value="29.26717824866982" />
+      <entry key="M30" value="57.37076055349155" />
+      <entry key="H1" value="108.39753404213297" />
+      <entry key="H2" value="201.23352701727777" />
+      <entry key="H4" value="324.3360153848409" />
+      <entry key="D1" value="538.3506842732555" />
+      <entry key="W1" value="593.1667832545884" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0562280960992609E-15" />
+      <entry key="MS500" value="0.0010110009021888453" />
+      <entry key="S2" value="0.17831500414225523" />
+      <entry key="S5" value="0.5020642136921452" />
+      <entry key="S10" value="0.7333863965594822" />
+      <entry key="S30" value="1.3536102009938693" />
+      <entry key="S60" value="1.9271909479797371" />
+      <entry key="M2" value="2.7228230567503555" />
+      <entry key="M5" value="5.45768571839421" />
+      <entry key="M10" value="9.48253924982128" />
+      <entry key="M15" value="12.731615534791622" />
+      <entry key="M30" value="20.039139109367937" />
+      <entry key="H1" value="30.28766183258847" />
+      <entry key="H2" value="45.99836727392067" />
+      <entry key="H4" value="64.92957352239293" />
+      <entry key="D1" value="95.90994538733126" />
+      <entry key="W1" value="103.62337009495276" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.0016426904062494868" />
+      <entry key="MS500" value="0.3293580018239133" />
+      <entry key="S2" value="1.5414039879578483" />
+      <entry key="S5" value="2.698053528829094" />
+      <entry key="S10" value="3.778029787043809" />
+      <entry key="S30" value="6.9887651868818" />
+      <entry key="S60" value="9.714154386430682" />
+      <entry key="M2" value="12.525583263528455" />
+      <entry key="M5" value="19.086234038492602" />
+      <entry key="M10" value="30.047515838928298" />
+      <entry key="M15" value="41.965887982041394" />
+      <entry key="M30" value="77.37961298122252" />
+      <entry key="H1" value="138.65862248574712" />
+      <entry key="H2" value="247.20906253306956" />
+      <entry key="H4" value="389.24816823349613" />
+      <entry key="D1" value="634.2560469056491" />
+      <entry key="W1" value="696.7894382820764" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3FKk8EJebFNshA9swrHPHiSjQNe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Board.executor": "Debug",
+    "Python.GameManager.executor": "Debug",
+    "Python.Table.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-c59985aa861c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.24374.152" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47521c87-96f3-4607-a1e5-301e59e81a62" name="Changes" comment="" />
+      <created>1781830986486</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1781830986486</updated>
+      <workItem from="1781830987507" duration="125000" />
+      <workItem from="1781831328596" duration="3000" />
+      <workItem from="1782167366533" duration="12125000" />
+      <workItem from="1782252427219" duration="13530000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Damas_AI$GameManager.coverage" NAME="GameManager Coverage Results" MODIFIED="1782255000110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Damas_AI$Board.coverage" NAME="Board Coverage Results" MODIFIED="1782179616250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Damas_AI$main.coverage" NAME="main Coverage Results" MODIFIED="1782268295706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Damas_AI$Table.coverage" NAME="Table Coverage Results" MODIFIED="1782169081259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
