@@ -6,10 +6,12 @@ from pathlib import Path
 
 class Board(pg.sprite.Sprite):
 
-    def __init__(self):
+    def __init__(self, board_coordinates, game_manager):
         board_img = pg.image.load('Sprites/Board.png')
         super().__init__(board_img)
 
+        self.board_coordinates = board_coordinates
+        self.board_map = game_manager.get_board_map()
         self.mens_sprites = {}
 
         directory = Path("./Sprites")
@@ -28,32 +30,21 @@ class Board(pg.sprite.Sprite):
             CellCode.BLACK_KING: "Black_king",
         }
 
-        self.map_coordinates = [[], [], [], [], [], [], [], []]
-        x = 22
-        y = 702
-        distance_tile = 97
-        for row in range(0, 8):
-            for line in range(0, 8):
-                self.map_coordinates[row].append([x, y])
-                x = x + distance_tile
-            y = y - distance_tile
-            x = 22
-
-    def draw(self, board_map):
+    def draw(self):
         super().draw()
 
-        for row_index, row in enumerate(board_map):
+        for row_index, row in enumerate(self.board_map):
             for col_index, cell in enumerate(row):
-                cell_code =  int(cell)
+                try:
+                    cell_code = CellCode(int(cell))
+                except ValueError:
+                    continue
+
                 if cell_code in self.sprite_by_cell:
                     sprite_name = self.sprite_by_cell[cell_code]
                     self.draw_at(row_index, col_index, sprite_name)
 
 
     def draw_at(self, x, y, sprite_name):
-        self.mens_sprites[sprite_name].position = (self.map_coordinates[x][y] + [0])
+        self.mens_sprites[sprite_name].position = (self.board_coordinates.get_pixel_position(x, y) + [0])
         self.mens_sprites[sprite_name].draw()
-
-    def debug_draw(self, board_map):
-        self.mens_sprites['Red_men'].position = (119, 702, 0)
-        self.mens_sprites['Red_men'].draw()

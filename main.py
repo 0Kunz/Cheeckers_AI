@@ -1,23 +1,26 @@
 import pyglet as pg
+from pyglet.window import mouse
 from Board import Board
 from GameManager import GameManager
+from BoardCoordinates import BoardCoordinates
 
-Game = pg.window.Window(caption='Cheeckers', resizable=False)
-Game.set_size(821,822)
+game = pg.window.Window(caption='Cheeckers', resizable=False)
+game.set_size(821,822)
+
+boardCoordinates = BoardCoordinates()
+game_manager = GameManager(boardCoordinates)
+board = Board(boardCoordinates, game_manager)
 
 
-board = Board()
-game_manager = GameManager(board)
-
-@Game.event
+@game.event
 def on_draw():
-    Game.clear()
-    board.draw(game_manager.board_map)
-    #board.debug_draw(game_manager.board)
+    game.clear()
+    board.draw()
 
-@Game.event
+@game.event
 def on_mouse_press(x, y, button, modifiers):
-    game_manager.click(x, y, button, modifiers)
+    if button == mouse.LEFT:
+        game_manager.click(x, y)
 
 print("Hello World")
 
