@@ -11,17 +11,15 @@ boardCoordinates = BoardCoordinates()
 game_manager = GameManager(boardCoordinates)
 board = Board(boardCoordinates, game_manager)
 
-
 @game.event
 def on_draw():
     game.clear()
     board.draw()
 
+# noinspection PyUnusedLocal
 @game.event
 def on_mouse_press(x, y, button, modifiers):
     if button == mouse.LEFT:
         game_manager.click(x, y)
-
-print("Hello World")
 
 pg.app.run()
