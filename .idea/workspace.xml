@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47521c87-96f3-4607-a1e5-301e59e81a62" name="Changes" comment="Version 0.3&#10;&#10;Simple movements working&#10;Missing Kings_selected_sprites&#10;TODO&#10;Capture rules">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="47521c87-96f3-4607-a1e5-301e59e81a62" name="Changes" comment="Version 0.31&#10;&#10;change to main on github" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,61 +34,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.1174403436517515" />
-      <entry key="MS500" value="1.6515736545838202" />
-      <entry key="S2" value="1.9426330113962282" />
-      <entry key="S5" value="2.82238495261264" />
-      <entry key="S10" value="5.131965314454139" />
-      <entry key="S30" value="11.971803178355207" />
-      <entry key="S60" value="15.980260963074969" />
-      <entry key="M2" value="18.689066680403794" />
-      <entry key="M5" value="21.966410299413127" />
-      <entry key="M10" value="30.7226717044268" />
-      <entry key="M15" value="40.439184927781454" />
-      <entry key="M30" value="63.30607176247868" />
-      <entry key="H1" value="103.6790763250269" />
-      <entry key="H2" value="194.77402160940832" />
-      <entry key="H4" value="366.28827742997015" />
-      <entry key="D1" value="846.6844066643662" />
-      <entry key="W1" value="1011.5309217329259" />
+      <entry key="MS100" value="1.0042856010760577" />
+      <entry key="MS500" value="1.4381668082747536" />
+      <entry key="S2" value="2.721577854029733" />
+      <entry key="S5" value="4.470999028919273" />
+      <entry key="S10" value="5.843752357808066" />
+      <entry key="S30" value="8.086247671983529" />
+      <entry key="S60" value="9.724523591240356" />
+      <entry key="M2" value="11.191678432313399" />
+      <entry key="M5" value="15.109879063599193" />
+      <entry key="M10" value="23.852031709580967" />
+      <entry key="M15" value="33.4564023620447" />
+      <entry key="M30" value="58.20354003406732" />
+      <entry key="H1" value="100.6812247965657" />
+      <entry key="H2" value="192.15774011903432" />
+      <entry key="H4" value="364.316172324412" />
+      <entry key="D1" value="853.8200543083493" />
+      <entry key="W1" value="1023.5271562283805" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="4.481344739608555E-154" />
-      <entry key="S5" value="6.350185813855761E-62" />
-      <entry key="S10" value="3.502214604915622E-31" />
-      <entry key="S30" value="1.1249181803728091E-10" />
-      <entry key="S60" value="1.6212895203693966E-5" />
-      <entry key="M2" value="0.007150013364782096" />
-      <entry key="M5" value="0.37666200288820717" />
-      <entry key="M10" value="1.7432117442064443" />
-      <entry key="M15" value="3.0461325604904133" />
-      <entry key="M30" value="5.903082775530628" />
-      <entry key="H1" value="12.003613279516177" />
-      <entry key="H2" value="28.443068246071025" />
-      <entry key="H4" value="59.99526219449154" />
-      <entry key="D1" value="143.3516763448182" />
-      <entry key="W1" value="170.8057947794836" />
+      <entry key="S2" value="2.1090364795730744E-284" />
+      <entry key="S5" value="4.697391183584853E-114" />
+      <entry key="S10" value="3.0121590652512285E-57" />
+      <entry key="S30" value="2.304796848867661E-19" />
+      <entry key="S60" value="7.338654358344801E-10" />
+      <entry key="M2" value="4.810439783110401E-5" />
+      <entry key="M5" value="0.05094516615437788" />
+      <entry key="M10" value="0.6410999292080735" />
+      <entry key="M15" value="1.5636247019366305" />
+      <entry key="M30" value="4.22932184010617" />
+      <entry key="H1" value="10.16033263275736" />
+      <entry key="H2" value="26.168233648490492" />
+      <entry key="H4" value="57.546105608364286" />
+      <entry key="D1" value="142.35933142257016" />
+      <entry key="W1" value="170.63637796527217" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.050628084359833" />
-      <entry key="MS500" value="1.6319882561311867" />
-      <entry key="S2" value="1.9365859388601288" />
-      <entry key="S5" value="2.814120003323299" />
-      <entry key="S10" value="5.1201425475613025" />
-      <entry key="S30" value="11.961660135741473" />
-      <entry key="S60" value="15.973541650280294" />
-      <entry key="M2" value="18.692180208494655" />
-      <entry key="M5" value="22.33782225602943" />
-      <entry key="M10" value="32.45500758242659" />
-      <entry key="M15" value="43.472123874019246" />
-      <entry key="M30" value="69.1953383146096" />
-      <entry key="H1" value="115.66760485087174" />
-      <entry key="H2" value="223.19905882003465" />
-      <entry key="H4" value="426.264784981249" />
-      <entry key="D1" value="990.0286650412326" />
-      <entry key="W1" value="1182.335453257995" />
+      <entry key="MS100" value="0.9701626317702923" />
+      <entry key="MS500" value="1.4294791644390947" />
+      <entry key="S2" value="2.7149027550350677" />
+      <entry key="S5" value="4.4629942156810385" />
+      <entry key="S10" value="5.83731903375243" />
+      <entry key="S30" value="8.082230060356268" />
+      <entry key="S60" value="9.721659111930444" />
+      <entry key="M2" value="11.189898771596356" />
+      <entry key="M5" value="15.159273639216238" />
+      <entry key="M10" value="24.48868815708172" />
+      <entry key="M15" value="35.01295332043869" />
+      <entry key="M30" value="62.422809654276016" />
+      <entry key="H1" value="110.82871165409344" />
+      <entry key="H2" value="218.30934592447167" />
+      <entry key="H4" value="421.8442694038112" />
+      <entry key="D1" value="996.1720158576072" />
+      <entry key="W1" value="1194.162271726939" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -153,7 +151,7 @@
       <workItem from="1782167366533" duration="12125000" />
       <workItem from="1782252427219" duration="14211000" />
       <workItem from="1782341915863" duration="7989000" />
-      <workItem from="1782766300912" duration="11944000" />
+      <workItem from="1782766300912" duration="12256000" />
     </task>
     <task id="LOCAL-00001" summary="Version 0.1&#10;&#10;Board sprites and Mens sprites in window">
       <option name="closed" value="true" />
@@ -187,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782777472076</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Version 0.31&#10;&#10;change to main on github">
+      <option name="closed" value="true" />
+      <created>1782778336895</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1782778336895</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +241,8 @@
     <MESSAGE value="Version 0.1&#10;&#10;Board sprites and Mens sprites in window" />
     <MESSAGE value="Version 0.2&#10;&#10;Sprite of selection working perfect" />
     <MESSAGE value="Version 0.3&#10;&#10;Simple movements working&#10;Missing Kings_selected_sprites&#10;TODO&#10;Capture rules" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 0.3&#10;&#10;Simple movements working&#10;Missing Kings_selected_sprites&#10;TODO&#10;Capture rules" />
+    <MESSAGE value="Version 0.31&#10;&#10;change to main on github" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 0.31&#10;&#10;change to main on github" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
