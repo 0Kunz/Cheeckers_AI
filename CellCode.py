@@ -18,15 +18,9 @@ class CellCode(IntEnum):
         return self == CellCode.EMPTY_PLAYABLE
 
     def is_piece(self):
-        return self in (
-            CellCode.RED_MEN,
-            CellCode.RED_MEN_SELECTED,
-            CellCode.RED_KING,
-            CellCode.RED_KING_SELECTED,
-            CellCode.BLACK_MEN,
-            CellCode.BLACK_MEN_SELECTED,
-            CellCode.BLACK_KING,
-            CellCode.BLACK_KING_SELECTED,
+        return (
+                self.is_red_piece()
+                or self.is_black_piece()
         )
 
     def is_red_piece(self):

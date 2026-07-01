@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47521c87-96f3-4607-a1e5-301e59e81a62" name="Changes" comment="Version 0.31&#10;&#10;change to main on github" />
+    <list default="true" id="47521c87-96f3-4607-a1e5-301e59e81a62" name="Changes" comment="Version 0.32&#10;&#10;up to date">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CellCode.py" beforeDir="false" afterPath="$PROJECT_DIR$/CellCode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameManager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamesRules.py" beforeDir="false" afterPath="$PROJECT_DIR$/GamesRules.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,61 +39,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0042856010760577" />
-      <entry key="MS500" value="1.4381668082747536" />
-      <entry key="S2" value="2.721577854029733" />
-      <entry key="S5" value="4.470999028919273" />
-      <entry key="S10" value="5.843752357808066" />
-      <entry key="S30" value="8.086247671983529" />
-      <entry key="S60" value="9.724523591240356" />
-      <entry key="M2" value="11.191678432313399" />
-      <entry key="M5" value="15.109879063599193" />
-      <entry key="M10" value="23.852031709580967" />
-      <entry key="M15" value="33.4564023620447" />
-      <entry key="M30" value="58.20354003406732" />
-      <entry key="H1" value="100.6812247965657" />
-      <entry key="H2" value="192.15774011903432" />
-      <entry key="H4" value="364.316172324412" />
-      <entry key="D1" value="853.8200543083493" />
-      <entry key="W1" value="1023.5271562283805" />
+      <entry key="MS100" value="1.0003857623593082" />
+      <entry key="MS500" value="1.2078653564515975" />
+      <entry key="S2" value="1.8832585834393996" />
+      <entry key="S5" value="2.662824657052993" />
+      <entry key="S10" value="3.1978698967180352" />
+      <entry key="S30" value="3.9090849984697695" />
+      <entry key="S60" value="4.741963911875052" />
+      <entry key="M2" value="7.110305916604592" />
+      <entry key="M5" value="15.804645725470131" />
+      <entry key="M10" value="28.569826238744113" />
+      <entry key="M15" value="38.89099004906617" />
+      <entry key="M30" value="63.6429780478831" />
+      <entry key="H1" value="110.3761597112977" />
+      <entry key="H2" value="205.7662453563283" />
+      <entry key="H4" value="387.8939061077159" />
+      <entry key="D1" value="1006.5545397102073" />
+      <entry key="W1" value="1251.5921551252736" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="2.1090364795730744E-284" />
-      <entry key="S5" value="4.697391183584853E-114" />
-      <entry key="S10" value="3.0121590652512285E-57" />
-      <entry key="S30" value="2.304796848867661E-19" />
-      <entry key="S60" value="7.338654358344801E-10" />
-      <entry key="M2" value="4.810439783110401E-5" />
-      <entry key="M5" value="0.05094516615437788" />
-      <entry key="M10" value="0.6410999292080735" />
-      <entry key="M15" value="1.5636247019366305" />
-      <entry key="M30" value="4.22932184010617" />
-      <entry key="H1" value="10.16033263275736" />
-      <entry key="H2" value="26.168233648490492" />
-      <entry key="H4" value="57.546105608364286" />
-      <entry key="D1" value="142.35933142257016" />
-      <entry key="W1" value="170.63637796527217" />
+      <entry key="MS100" value="5.23195412E-315" />
+      <entry key="MS500" value="1.392299878943634E-63" />
+      <entry key="S2" value="1.9316711623776922E-16" />
+      <entry key="S5" value="5.180519091652924E-7" />
+      <entry key="S10" value="7.197582297881021E-4" />
+      <entry key="S30" value="0.08973331960278438" />
+      <entry key="S60" value="0.3222472985533753" />
+      <entry key="M2" value="0.9135353533193235" />
+      <entry key="M5" value="3.056586267584935" />
+      <entry key="M10" value="5.731984637587065" />
+      <entry key="M15" value="7.694819094665263" />
+      <entry key="M30" value="12.471511371293666" />
+      <entry key="H1" value="20.509128205208036" />
+      <entry key="H2" value="35.36475040526194" />
+      <entry key="H4" value="65.36802615879172" />
+      <entry key="D1" value="169.41035901019262" />
+      <entry key="W1" value="210.02030915230466" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9701626317702923" />
-      <entry key="MS500" value="1.4294791644390947" />
-      <entry key="S2" value="2.7149027550350677" />
-      <entry key="S5" value="4.4629942156810385" />
-      <entry key="S10" value="5.83731903375243" />
-      <entry key="S30" value="8.082230060356268" />
-      <entry key="S60" value="9.721659111930444" />
-      <entry key="M2" value="11.189898771596356" />
-      <entry key="M5" value="15.159273639216238" />
-      <entry key="M10" value="24.48868815708172" />
-      <entry key="M15" value="35.01295332043869" />
-      <entry key="M30" value="62.422809654276016" />
-      <entry key="H1" value="110.82871165409344" />
-      <entry key="H2" value="218.30934592447167" />
-      <entry key="H4" value="421.8442694038112" />
-      <entry key="D1" value="996.1720158576072" />
-      <entry key="W1" value="1194.162271726939" />
+      <entry key="MS100" value="4.280301374505422E-4" />
+      <entry key="MS500" value="0.2145172173298588" />
+      <entry key="S2" value="1.0307411690856587" />
+      <entry key="S5" value="2.0553547551849753" />
+      <entry key="S10" value="2.8039408109657336" />
+      <entry key="S30" value="3.83566667766899" />
+      <entry key="S60" value="4.972424400019134" />
+      <entry key="M2" value="7.963872902796049" />
+      <entry key="M5" value="18.816682656197266" />
+      <entry key="M10" value="34.26508407300162" />
+      <entry key="M15" value="46.55358137683308" />
+      <entry key="M30" value="76.08921305375294" />
+      <entry key="H1" value="130.86454548671395" />
+      <entry key="H2" value="241.11199058388877" />
+      <entry key="H4" value="453.2432566127777" />
+      <entry key="D1" value="1175.956426934248" />
+      <entry key="W1" value="1461.6109533573583" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -105,6 +110,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.Board.executor": "Debug",
     "Python.GameManager.executor": "Run",
+    "Python.GamesRules.executor": "Run",
     "Python.Table.executor": "Run",
     "Python.base.executor": "Debug",
     "Python.main.executor": "Run",
@@ -151,7 +157,8 @@
       <workItem from="1782167366533" duration="12125000" />
       <workItem from="1782252427219" duration="14211000" />
       <workItem from="1782341915863" duration="7989000" />
-      <workItem from="1782766300912" duration="12256000" />
+      <workItem from="1782766300912" duration="12647000" />
+      <workItem from="1782853818621" duration="10983000" />
     </task>
     <task id="LOCAL-00001" summary="Version 0.1&#10;&#10;Board sprites and Mens sprites in window">
       <option name="closed" value="true" />
@@ -193,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782778336895</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Version 0.32&#10;&#10;up to date">
+      <option name="closed" value="true" />
+      <created>1782778839453</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1782778839453</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +237,13 @@
             <State>
               <option name="FILTERS">
                 <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
                   <entry key="user">
                     <value>
                       <list>
@@ -242,17 +264,11 @@
     <MESSAGE value="Version 0.2&#10;&#10;Sprite of selection working perfect" />
     <MESSAGE value="Version 0.3&#10;&#10;Simple movements working&#10;Missing Kings_selected_sprites&#10;TODO&#10;Capture rules" />
     <MESSAGE value="Version 0.31&#10;&#10;change to main on github" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 0.31&#10;&#10;change to main on github" />
+    <MESSAGE value="Version 0.32&#10;&#10;up to date" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 0.32&#10;&#10;up to date" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/GameManager.py</url>
-          <line>88</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -263,10 +279,11 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Damas_AI$GamesRules.coverage" NAME="GamesRules Coverage Results" MODIFIED="1782860982316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Damas_AI$GameManager.coverage" NAME="GameManager Coverage Results" MODIFIED="1782766391796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Damas_AI$base.coverage" NAME="base Coverage Results" MODIFIED="1782344992775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv/lib/python3.12/site-packages/pyglet/app" />
     <SUITE FILE_PATH="coverage/Damas_AI$Board.coverage" NAME="Board Coverage Results" MODIFIED="1782344972494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Damas_AI$main.coverage" NAME="main Coverage Results" MODIFIED="1782777081166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Damas_AI$main.coverage" NAME="main Coverage Results" MODIFIED="1782865661406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Damas_AI$Table.coverage" NAME="Table Coverage Results" MODIFIED="1782169081259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

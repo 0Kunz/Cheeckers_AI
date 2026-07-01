@@ -50,7 +50,6 @@ class GameManager:
         self.board_map = self.INITIAL_BOARD_MAP.copy()
         self.board_coordinates = board_coordinates
         self.games_rules = GamesRules(self.board_map)
-
         self.current_player = self.BLACK_PLAYER
         self.men_selected = None
 
@@ -74,7 +73,12 @@ class GameManager:
 
         valid_moves = self.games_rules.get_valid_moves(self.men_selected)
 
-        if clicked_position in valid_moves:
+        if clicked_position in valid_moves['landing']:
+            self.move_and_capture(clicked_position, valid_moves)
+            self.switch_player()
+            return
+
+        if clicked_position in valid_moves['basic_moves']:
             self.move_selected_men_to(clicked_position)
             self.switch_player()
             return
@@ -84,6 +88,30 @@ class GameManager:
             return
 
         self.unselect_men()
+
+    def move_and_capture(self, new_position, valid_moves):
+        choosen_index = self.get_index_capture(valid_moves, new_position)
+        enemy_piece = valid_moves['captured'][choosen_index]
+
+        selected_position = self.men_selected
+        selected_men_code = self.get_element(selected_position)
+
+        normal_men_code = selected_men_code.normal_version()
+        final_men_code = self.promote_men_if_needed(normal_men_code, new_position)
+
+        self.set_element(selected_position, CellCode.EMPTY_PLAYABLE)
+        self.set_element(enemy_piece, CellCode.EMPTY_PLAYABLE)
+        self.set_element(new_position, final_men_code)
+
+        self.men_selected = None
+
+    @staticmethod
+    def get_index_capture(valid_moves, position):
+        for index, valid_move  in enumerate(valid_moves['landing']):
+            if not valid_move == position:
+                continue
+            return index
+        return None
 
     def move_selected_men_to(self, new_position):
         selected_position = self.men_selected
@@ -97,7 +125,8 @@ class GameManager:
 
         self.men_selected = None
 
-    def promote_men_if_needed(self, men_code, position):
+    @staticmethod
+    def promote_men_if_needed(men_code, position):
         row, _ = position
 
         if men_code == CellCode.BLACK_MEN and row == 0:
